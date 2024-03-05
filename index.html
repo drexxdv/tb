@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>TrubWay - Un bot sin igual</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <meta property="og:title" content="TrubWay - Discord Bot">
+  <meta property="og:description" content="TrubWay es un bot de Discord multifuncional, que funciona sin base de datos.">
+  <meta property="og:image" content="https://9a88a0eb-3c79-4469-a0e9-08874bd63f56-00-3e46clgwdwvzi.janeway.replit.dev/images/full-logo.jpeg">
+  <meta property="og:url" content="https://9a88a0eb-3c79-4469-a0e9-08874bd63f56-00-3e46clgwdwvzi.janeway.replit.dev/">
+  <p id="tw-bot">
+    <div class="content-container">
+    <img src="images/full-logo.jpeg" alt="TrubWay Logo" width="200" height="200">
+    <h1 class="trubway"> TrubWay</h1>
+    <button class="acces" onclick="redirectToDiscord()">Acceder</button>
+    </div>
+  <script>
+    function redirectToDiscord() {
+    window.location.href = 'https://discord.com/oauth2/authorize?client_id=1212792639926050886&response_type=code&redirect_uri=https%3A%2F%2F9a88a0eb-3c79-4469-a0e9-08874bd63f56-00-3e46clgwdwvzi.janeway.replit.dev%2Fdash%2Fhome.html&scope=identify';
+  }
+  </script>
+  </p>
+  <script src="script.js"></script>
+</body>
+
+</html>
